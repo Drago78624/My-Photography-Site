@@ -662,6 +662,7 @@ body{
 .navigation-heading{
     font-size: 20px;
     color: white;
+    margin-left: 5%;
 }
 .navigation-text{
     margin-top: 15%;
@@ -679,6 +680,7 @@ body{
 .links-heading{
     font-size: 20px;
     color: white;
+    margin-right: 18%;
 }
 .links-text{
     margin-top: 15%;
