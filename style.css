@@ -1,24 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     width: 98.5vw;
     height: 100vh;
-}
-.font{
     font-family: 'Roboto', sans-serif;
 }
+
+.styling-buttons {
+    width: 100%;
+    height: 7%;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.styling-buttons__container {
+    width: 90%;
+    height: 80%;
+    /* background-color: rgb(35, 102, 35); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.styling-buttons__container > button {
+    width: 12%;
+    height: 100%;
+    font-size: 15px;
+    background-color: #A91A12;
+    color: white;
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.styling-buttons__container > button:hover {
+    background-color: #bd261f;
+}
+
 .first-main-container{
     width: 100%;
     height: 110%;
     background-color: #0E0E0E;
+    margin-top: 4.5%;
+    /* background-color: lightgray; */
 }
 .img-container{
-    height: 112%;
+    height: 110%;
     width: 80%;
     /* background-color: darkturquoise; */
     position: absolute;
-    right: 0%;
+    right: 0.9%;
 }
 .img-container > img{
     width: 100%;
@@ -738,3 +779,23 @@ body{
 .copyright-line > span > a{
     color: #AE493E;
 }
+
+/* body div , span , h1 , a ,button {
+    color: black;
+}
+
+.container-style {
+    background-color: rgb(233, 235, 236);
+} */
+
+/* body div .purple {
+    background-color: purple;
+} */
+
+/* body div .purple-text {
+    color: #970697;
+}
+
+.styling-buttons__container button {
+    background-color: purple;
+} */
