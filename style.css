@@ -14,6 +14,7 @@ body{
     width: 100%;
     height: 7%;
     background-color: #202020;
+    opacity: 0.9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -799,3 +800,27 @@ body{
 .styling-buttons__container button {
     background-color: purple;
 } */
+
+.black-text-class {
+    color: black;
+}
+
+.gray-text-class {
+    color: gray;
+}
+
+.dark-gray-text {
+    color: gray;
+}
+
+.white-background-class {
+    background-color: white;
+}
+
+.light-gray-background-class {
+    background-color: darkgray;
+}
+
+.dark-gray-background-class {
+    background-color: rgb(187, 187, 187);
+}
